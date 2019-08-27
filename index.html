@@ -1,39 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel:400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400&display=swap" rel="stylesheet">
 
 
 
-<style>
-  body {
-    background: black;
-  }
-    h2{
+  <style>
+    body {
+      background: black;
+    }
+
+    h2 {
       color: antiquewhite;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       text-align: center;
     }
+
     p {
       color: rgb(245, 238, 229);
       font-family: 'Cinzel', serif;
       letter-spacing: 2px;
     }
+
     hr {
       color: antiquewhite;
       background-color: antiquewhite
     }
-</style>
 
-    <title>About</title>
+    a {
+      color: antiquewhite;
+
+    }
+
+    a:hover {
+      color: yellowgreen
+    }
+    .pimg{
+      text-align: center;
+    }
+  </style>
+
+  <title>About</title>
 </head>
+
 <body>
-    <header>
-      <div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color:#0e7c73 ">
+      <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block">
+          <!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand" href="#">
+          Carl Robinson
+        </a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-9 pr-0">
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0e7c73; font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; height: 125px">
@@ -62,65 +108,86 @@
                     </div>
                     </div>
                     
-                    <!-- </div> -->
+                    </div>
                   </nav>
-                </div>
-    </header>
-    <br>
-    <div class="container">
-      
-        <div class="jumbotron" style="background:lightseagreen">
-            <H2>
-                About Me
-              </H2>
-              <hr>
-          <div class="row">
-            <div class="col-2">
-<br>
+                </div> -->
+  </header>
+  <br>
+  <div class="container">
 
-<img src="assets/images/profile pic.jpg" width="150" height="250">
-            </div><div class="col-10">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sint aliquid! Similique repudiandae vel cumque eos culpa rem nesciunt explicabo perspiciatis cupiditate officia, veritatis, labore perferendis quidem sed vero hic? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsum, eaque ipsam harum repudiandae sed a, dicta perferendis adipisci et nesciunt eveniet, possimus atque omnis ipsa distinctio. Ipsa, laboriosam ipsum.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse perferendis blanditiis quisquam fuga tenetur, obcaecati voluptatibus quibusdam officia nemo atque repudiandae molestias assumenda odit quas voluptas nobis quidem illum porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ullam corrupti repellat impedit culpa deleniti ducimus inventore numquam libero id quidem modi quos debitis quasi, est at officia magnam minus?
-           </p>
-           <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ex accusamus qui animi eaque velit quos iusto quod sint dicta distinctio temporibus voluptate illum quae autem tempora ut beatae reprehenderit.
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id harum, enim perspiciatis, nemo veritatis vel eaque quos aliquam, labore et eos expedita in officia totam. Maiores assumenda at ipsam cupiditate.
-             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, rerum vero? Itaque exercitationem esse dolorum tempora minus quod commodi, quam beatae labore accusantium quo quis, minima ratione optio cum sapiente?
-           </p>
-          </div>
-            
+    <div class="jumbotron" style="background:lightseagreen">
+      <H2>
+        About Me
+      </H2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-12 col-lg-2 text-center">
+          <br>
 
-          </div>      
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <img class= "pimg"src="assets/images/profile pic.jpg" width="150" height="250">
+        </div>
+        <div class="col-sm-12 col-lg-10">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sint aliquid!
+            Similique repudiandae vel cumque eos culpa rem nesciunt explicabo perspiciatis cupiditate officia,
+            veritatis, labore perferendis quidem sed vero hic? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos ipsum, eaque ipsam harum repudiandae sed a, dicta perferendis adipisci et nesciunt eveniet,
+            possimus atque omnis ipsa distinctio. Ipsa, laboriosam ipsum.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse perferendis blanditiis quisquam fuga tenetur,
+            obcaecati voluptatibus quibusdam officia nemo atque repudiandae molestias assumenda odit quas voluptas nobis
+            quidem illum porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ullam corrupti
+            repellat impedit culpa deleniti ducimus inventore numquam libero id quidem modi quos debitis quasi, est at
+            officia magnam minus?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ex accusamus qui animi eaque velit quos iusto
+            quod sint dicta distinctio temporibus voluptate illum quae autem tempora ut beatae reprehenderit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id harum, enim perspiciatis, nemo veritatis vel
+            eaque quos aliquam, labore et eos expedita in officia totam. Maiores assumenda at ipsam cupiditate.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, rerum vero? Itaque exercitationem esse
+            dolorum tempora minus quod commodi, quam beatae labore accusantium quo quis, minima ratione optio cum
+            sapiente?
+          </p>
+        </div>
 
 
+      </div>
 
-          <footer class="blockquote-footer">
-    
-              Someone famous in <cite title="Source Title">Source Title</cite>
-           
-          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer class="blockquote-footer">
+
+        Someone famous in <cite title="Source Title">Source Title</cite>
+
+      </footer>
     </div>
-    
+  </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
